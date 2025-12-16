@@ -1,3 +1,6 @@
+# Claude Code 本地配置
+.claude/
+
 # 敏感数据 - 用户个人分析历史
 data/reports/
 data/patterns.json
