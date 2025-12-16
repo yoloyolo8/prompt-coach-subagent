@@ -1,0 +1,27 @@
+# 敏感数据 - 用户个人分析历史
+data/reports/
+data/patterns.json
+
+# 学习历史和个人统计
+*.history
+*.log
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp

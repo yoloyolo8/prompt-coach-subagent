@@ -1,0 +1,24 @@
+v1.0.0
+
+Prompt Coach Subagent
+Release Date: 2024-12-16
+
+Features:
+- ✅ 实时prompt优化 (Realtime Mode)
+- ✅ 批量对话分析 (Batch Mode)
+- ✅ 个人模式学习 (Pattern Learning)
+- ✅ 模板自动生成 (Template Generation)
+- ✅ 约束扫描框架支持 (Constraint Scanning)
+- ✅ 中英文混合支持
+- ✅ CLI集成工具
+- ✅ 可配置分析维度
+
+Known Issues:
+- 批量模式需要在claude.ai环境中使用(API模式下无past chats访问)
+- 首次使用需要至少10-20条历史对话作为学习基线
+
+Roadmap:
+- v1.1: 可视化dashboard
+- v1.2: N8N workflow模板
+- v1.3: 团队协作功能
+- v2.0: 自动A/B测试prompt版本

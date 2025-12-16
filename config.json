@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "analysis_dimensions": {
+    "clarity": {
+      "weight": 0.25,
+      "enabled": true,
+      "description": "目标和任务的明确性"
+    },
+    "structure": {
+      "weight": 0.25,
+      "enabled": true,
+      "description": "信息组织和逻辑流"
+    },
+    "context": {
+      "weight": 0.25,
+      "enabled": true,
+      "description": "背景信息的完整性"
+    },
+    "efficiency": {
+      "weight": 0.25,
+      "enabled": true,
+      "description": "一次性达成目标的可能性"
+    }
+  },
+  "scoring_thresholds": {
+    "excellent": 80,
+    "good": 60,
+    "needs_improvement": 40
+  },
+  "personal_frameworks": [
+    {
+      "name": "约束扫描 (Constraint Scanning)",
+      "structure": "建模 → 主约束 → 参数化 → 极端化 → 决策区间",
+      "keywords": ["约束", "边界", "极端", "参数", "决策区间", "建模"],
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "name": "分层模块化",
+      "structure": "垂直切片 → 可测试单元 → 独立部署",
+      "keywords": ["模块", "单元", "独立", "可测试", "分层"],
+      "enabled": true,
+      "priority": 2
+    }
+  ],
+  "batch_analysis": {
+    "default_count": 20,
+    "max_count": 100,
+    "min_count": 5,
+    "skip_greetings": true,
+    "skip_meta_conversations": true,
+    "generate_templates": true,
+    "update_patterns": true,
+    "save_detailed_analysis": true
+  },
+  "realtime_suggestions": {
+    "count": 3,
+    "include_scores": true,
+    "show_improvements": true,
+    "format": "markdown"
+  },
+  "template_generation": {
+    "min_success_rate": 0.7,
+    "min_usage_count": 3,
+    "include_examples": true,
+    "max_templates": 10
+  },
+  "learning": {
+    "auto_learn": true,
+    "update_frequency": "after_batch",
+    "pattern_confidence_threshold": 0.6,
+    "save_history": true,
+    "history_retention_days": 90
+  },
+  "output": {
+    "language": "zh-CN",
+    "include_urls": true,
+    "include_examples": true,
+    "include_statistics": true,
+    "format": "markdown"
+  },
+  "user_preferences": {
+    "technical_level": "high",
+    "preferred_length": "concise",
+    "avoid_excessive_formatting": true,
+    "primary_language": "chinese",
+    "technical_terms_in_english": true
+  }
+}
